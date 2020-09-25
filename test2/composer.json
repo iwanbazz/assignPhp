@@ -1,0 +1,22 @@
+{
+  "name": "iwan/test2",
+  "description": "excel validator",
+  "authors": [
+    {
+      "name": "iwanbazz",
+      "email": "iwan.bazz@gmail.com"
+    }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.14",
+    "jc21/clitable": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "IwanBazz\\": "src/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  }
+}
